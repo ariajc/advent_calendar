@@ -2,7 +2,7 @@ import string
 import os
 
 
-os.chdir('C:/Users/AriaJaimejuan/OneDrive - Mentice AB/Desktop/advent/3/')
+os.chdir('C:/Users/AriaJaimejuan/OneDrive - Mentice AB/Desktop/advent/advent_calendar/3/')
 
 values = dict()
 for index , letter in enumerate(string.ascii_lowercase+string.ascii_uppercase):
@@ -21,16 +21,15 @@ for line in lines:
 print(sum)
 
 
-# ## p2
+
+## p2
 sum_2=0
+
 for i in range(0,len(lines),3):
-    x=lines[i]+lines[i+1]+lines[i+2]
-    y=list(set(lines[i].strip()))+list(set(lines[i+1].strip()))+list(set(lines[i+2].strip()))
-    print(x)
-    for i in y:
-        if y.count(i)==3:
-            sum_2+=values[i]/3
+    sum_2+=values[list(set(lines[i].strip()).intersection(set(lines[i+1].strip()),set(lines[i+2].strip())))[0]]
 
 print(sum_2)
+
+
 
 
