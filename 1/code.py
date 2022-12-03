@@ -2,7 +2,6 @@ import os
 import operator
 
 
-os.chdir('C:/Users/AriaJaimejuan/OneDrive - Mentice AB/Desktop/advent/1/')
 
 with open('data.txt') as f:
     lines=f.readlines()
