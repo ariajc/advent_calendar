@@ -2,7 +2,6 @@ import string
 import os
 
 
-os.chdir('C:/Users/AriaJaimejuan/OneDrive - Mentice AB/Desktop/advent/advent_calendar/3/')
 
 values = dict()
 for index , letter in enumerate(string.ascii_lowercase+string.ascii_uppercase):

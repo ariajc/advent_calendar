@@ -2,7 +2,7 @@ import os
 import collections
 
 
-os.chdir('C:/Users/AriaJaimejuan/OneDrive - Mentice AB/Desktop/advent/2/')
+
 
 
 
