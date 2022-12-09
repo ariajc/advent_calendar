@@ -1,7 +1,7 @@
 import os
 
 
-os.chdir('C:\\Users\\AriaJaimejuan\\OneDrive - Mentice AB\\Desktop\\advent\\Nueva carpeta\\advent_calendar\\9')
+
 
 with open('data.txt') as f:
     lines=f.read().splitlines()
