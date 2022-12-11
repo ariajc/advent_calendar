@@ -2,7 +2,7 @@ import os
 import re
 from math import prod 
 
-os.chdir('C:\\Users\\AriaJaimejuan\\OneDrive - Mentice AB\\Desktop\\advent\\Nueva carpeta\\advent_calendar\\11')
+
 
 with open('data.txt') as f:
     lines = f.read().split("\n\n")
